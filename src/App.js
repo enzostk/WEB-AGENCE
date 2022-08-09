@@ -5,6 +5,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Works from './pages/Works/Works';
 import Navbar from './Components/Navbar/Navbar';
+import StudyCase from './Components/StudyCase/StudyCase';
 import './App.css'
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/works" element={<Works />} />
+            <Route path="/works/:workSlug" element={<StudyCase />} />
           </Routes>
         </div>
     </div>

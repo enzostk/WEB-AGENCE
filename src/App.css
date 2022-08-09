@@ -19,10 +19,12 @@ html, body {
   flex-direction: column;
   background: #fff;
   color: #202020;
+  transition: all 0.2s ease-in-out;
 }  
 .app-wrapper.dark {
   background: #202020;
   color: #fff;
+  transition: all 0.2s ease-in-out;
 }
 .app-wrapper.dark.h1 {
   color: #fff;
